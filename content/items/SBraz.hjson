@@ -1,0 +1,10 @@
+name: Super brąz
+description: mieszanka brązu ołowianego i tytanowego.
+color: ffffff
+research: {
+  parent: Braz_t
+  requirements: [
+    Braz_o/120
+    Braz_t/100
+  ]
+}

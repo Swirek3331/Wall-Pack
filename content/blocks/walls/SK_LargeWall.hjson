@@ -1,0 +1,17 @@
+type: Wall
+name: Duża ściana z super kryształu
+description: Duża ściana zrobiona z sztabek super kryształu.
+health: 12000
+size: 2
+requirements: [
+  Super_k/40
+]
+category: defense
+insulated: true
+absorbLasers: true
+research: {
+  parent: SK_Wall
+  requirements: [
+    Super_k/600
+  ]
+}

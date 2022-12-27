@@ -1,0 +1,15 @@
+type: Wall
+name: Large Sand Wall
+description: Ściana zrobiona z PIASKU. Bo czemu by nie.... Mała niespodzianka dla was
+health:500
+size: 2
+requirements: [
+  sand/50
+]
+category: defense
+research: {
+  parent: Sand_Wall
+  requirements: [
+    sand/1200
+  ]
+}

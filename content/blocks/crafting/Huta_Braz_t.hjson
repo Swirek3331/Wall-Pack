@@ -1,0 +1,36 @@
+type: GenericSmelter
+name: Huta brązu tytanowego
+description: Wytapia brąz tytanowy z miezi i ołowiu.
+health: 589
+size: 2
+updateEffect: lava
+craftTime: 150
+hasItems: 16
+consumes: {
+  power: 1
+  items: {
+    items: [
+      copper/3
+      titanium/2
+    ]
+  }
+}
+category: crafting
+requirements: [
+		copper/200
+		graphite/50
+		lead/120
+                titanium/75
+]
+research: {
+  parent: Braz_o
+  requirements: [
+    copper/600
+    lead/500
+    graphite/300
+    titanium/250
+  ]
+}
+ambientSound: drill
+ambientSoundVolume: 2
+outputItem: Braz_t/3

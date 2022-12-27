@@ -1,0 +1,9 @@
+name: Kryształ
+description: fioletowy, bardzo kruchy kryształ.
+color: bd3abd
+research: {
+  parent: Kondens_t
+  requirements: [
+    Kondens_t/590
+  ]
+}

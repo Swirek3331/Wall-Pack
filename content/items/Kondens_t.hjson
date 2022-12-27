@@ -1,0 +1,9 @@
+name: Skądensowany tytan
+description: sztabka sprasowanego pod dużym ciśnieniem tytanu 
+color: 63b9ff
+research: {
+  parent: Braz_t
+  requirements: [
+    titanium/568
+  ]
+}

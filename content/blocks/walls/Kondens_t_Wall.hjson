@@ -1,0 +1,15 @@
+type: Wall
+name: Ściana z skondensowanego tytanu
+description: Ściana zrobiona z sztabek prasowanego tytanu.
+health: 1000
+size: 1
+requirements: [
+  Kondens_t/8
+]
+category: defense
+research: {
+  parent: Kondens_t
+  requirements: [
+    Kondens_t/100
+  ]
+}

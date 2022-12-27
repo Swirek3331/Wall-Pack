@@ -1,0 +1,10 @@
+name: Super kryształ
+description: sztabka super kryształu
+color: 7f7aff
+research: {
+  parent: Kondens_k
+  requirements: [
+    Kondens_k/500
+    Kondens_t/500
+  ]
+}

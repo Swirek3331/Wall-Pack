@@ -1,0 +1,9 @@
+name: Skądensowany kryształ
+description: sztabka sprasowanego pod dużym ciśnieniem kryształu
+color: ff00ff
+research: {
+  parent: Kondens_t
+  requirements: [
+    crystal/769
+  ]
+}

@@ -1,0 +1,15 @@
+type: Wall
+name: Duża ściana z super brązu
+description: Duża ściana zrobiona z sztabek super brązu.
+health: 4800
+size: 2
+requirements: [
+  SBraz/32
+]
+category: defense
+research: {
+  parent: SBraz_Wall
+  requirements: [
+    SBraz/600
+  ]
+}

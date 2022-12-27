@@ -1,0 +1,15 @@
+type: Wall
+name: Ściana z super brązu
+description: Ściana zrobiona z sztabek super brązu.
+health: 1200
+size: 1
+requirements: [
+  SBraz/8
+]
+category: defense
+research: {
+  parent: SBraz
+  requirements: [
+    SBraz/100
+  ]
+}

@@ -1,0 +1,36 @@
+type: GenericSmelter
+name: Huta super brązu 
+description: Wytapia zuper brąz z połączenia brązu ołowianego i tytanowego.
+health: 600
+size: 2
+updateEffect: lava
+craftTime: 250
+hasItems: 16
+consumes: {
+  power: 2
+  items: {
+    items: [
+      Braz_o/5
+      Braz_t/5
+    ]
+  }
+}
+category: crafting
+requirements: [
+		copper/250
+		graphite/75
+		lead/150
+                titanium/100
+]
+research: {
+  parent: Braz_t
+  requirements: [
+    copper/750
+    lead/650
+    graphite/400
+    titanium/300
+  ]
+}
+ambientSound: drill
+ambientSoundVolume: 2
+outputItem: SBraz/5

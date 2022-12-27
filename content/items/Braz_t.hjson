@@ -1,0 +1,10 @@
+name: Brąz tytanowy
+description: Stop miedzi i tytanu.
+color: 657840
+research: {
+  parent: Braz_o
+  requirements: [
+    copper/120
+    titanium/100
+  ]
+}

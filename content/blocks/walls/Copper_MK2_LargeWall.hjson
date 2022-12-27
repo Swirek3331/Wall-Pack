@@ -1,0 +1,15 @@
+type: Wall
+name: Large Copper Wall MK2
+description: Duża ściana zrobiona z duzej ilości miedzi
+health: 2000
+size: 2
+requirements: [
+  copper/60
+]
+category: defense
+research: {
+  parent: Copper_MK2_Wall
+  requirements: [
+    copper/800
+  ]
+}

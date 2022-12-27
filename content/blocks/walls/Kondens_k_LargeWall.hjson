@@ -1,0 +1,17 @@
+type: Wall
+name: Duża ściana z skondensowanego kryształu
+description: Duża ściana zrobiona z sztabek prasowanego kryształu.
+health: 6000
+size: 2
+requirements: [
+  Kondens_k/40
+]
+category: defense
+insulated: true
+absorbLasers: true
+research: {
+  parent: Kondens_k_Wall
+  requirements: [
+    Kondens_k/600
+  ]
+}

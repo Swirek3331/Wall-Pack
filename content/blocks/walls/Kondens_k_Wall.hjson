@@ -1,0 +1,17 @@
+type: Wall
+name: Ściana z skondensowanego kryształu
+description: Ściana zrobiona z sztabek prasowanego kryształu.
+health: 1500
+size: 1
+requirements: [
+  Kondens_k/10
+]
+category: defense
+insulated: true
+absorbLasers: true
+research: {
+  parent: Kondens_t_LargeWall
+  requirements: [
+    Kondens_k/150
+  ]
+}

@@ -1,0 +1,15 @@
+type: Wall
+name: Duża ściana z brązu tytanowego
+description: Duża ściana zrobiona z stopu miedzi i tytanu. 
+health: 3500
+size: 2
+requirements: [
+  Braz_o/28
+]
+category: defense
+research: {
+  parent: Braz_t_Wall
+  requirements: [
+    Braz_t/200
+  ]
+}

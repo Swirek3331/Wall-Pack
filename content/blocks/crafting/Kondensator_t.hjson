@@ -1,0 +1,35 @@
+type: GenericCrafter
+name: Kondesator tytanu
+description: Prasuje duże ilości tytanu w jego skondensowane sztabki.
+health: 790
+size: 3
+updateEffect: steam
+craftTime: 300
+hasItems: 16
+consumes: {
+  power: 3
+  items: {
+    items: [
+      titanium/10
+    ]
+  }
+}
+category: crafting
+requirements: [
+		copper/450
+		graphite/300
+		lead/400
+                titanium/350
+]
+research: {
+  parent: titanium
+  requirements: [
+    copper/500
+    lead/450
+    graphite/350
+    titanium/400
+  ]
+}
+ambientSound: steam
+ambientSoundVolume: 3
+outputItem: Kondens_t/2

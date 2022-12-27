@@ -1,0 +1,40 @@
+type: GenericSmelter
+name: Huta super kryształu
+description: Wytapia z dużych ilości kryształu i tytanu  sztabki super kryształu.
+health: 900
+size: 5
+updateEffect: steam
+craftTime: 500
+hasItems: 16
+consumes: {
+  power: 7
+  items: {
+    items: [
+      Kondens_k/10
+      Kondens_t/10
+    ]
+  }
+}
+category: crafting
+requirements: [
+		copper/1350
+		graphite/1000
+		lead/1480
+                titanium/890
+                thorium/900
+                Kondens_k/500
+]
+research: {
+  parent: Kondens_k
+  requirements: [
+    copper/10000
+    graphite/10000
+    lead/14800
+    titanium/8900
+    thorium/9000
+    Kondens_k/5000
+  ]
+}
+ambientSound: steam
+ambientSoundVolume: 3
+outputItem: Super_k/1

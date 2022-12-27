@@ -1,0 +1,37 @@
+type: GenericCrafter
+name: Kondesator kryształu
+description: Prasuje duże ilości kryształu w jego skondensowane sztabki.
+health: 790
+size: 3
+updateEffect: steam
+craftTime: 360
+hasItems: 16
+consumes: {
+  power: 5
+  items: {
+    items: [
+      crystal/10
+    ]
+  }
+}
+category: crafting
+requirements: [
+		copper/900
+		graphite/590
+		lead/1000
+                titanium/450
+                thorium/500
+]
+research: {
+  parent: titanium
+  requirements: [
+    copper/1500
+    lead/2000
+    graphite/1000
+    titanium/1400
+    thorium/900
+  ]
+}
+ambientSound: steam
+ambientSoundVolume: 3
+outputItem: Kondens_k/1

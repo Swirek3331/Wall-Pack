@@ -1,0 +1,34 @@
+type: GenericSmelter
+name: Huta brązu ołowianego
+description: Wytapia brąz ołowiany z miedzi i ołowiu.
+health: 589
+size: 2
+updateEffect: lava
+craftTime: 100
+hasItems: 16
+consumes: {
+  power: 1
+  items: {
+    items: [
+      copper/3
+      lead/2
+    ]
+  }
+}
+category: crafting
+requirements: [
+		copper/200
+		graphite/50
+		lead/120
+]
+research: {
+  parent: lead
+  requirements: [
+    copper/500
+    lead/400
+    graphite/300
+  ]
+}
+ambientSound: drill
+ambientSoundVolume: 2
+outputItem: Braz_o/3

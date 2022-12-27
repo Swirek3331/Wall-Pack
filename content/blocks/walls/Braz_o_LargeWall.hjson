@@ -1,0 +1,15 @@
+type: Wall
+name: Duża ściana z brązu ołowianego
+description: Duża ściana zrobiona z stopu miedzi i ołowiu.
+health: 2800
+size: 2
+requirements: [
+  Braz_o/28
+]
+category: defense
+research: {
+  parent: Braz_o_Wall
+  requirements: [
+    Braz_o/200
+  ]
+}

@@ -1,0 +1,10 @@
+name: Brąz ołowiany
+description: Stop miedzi i ołowiu.
+color: d97e00
+research: {
+  parent: copper
+  requirements: [
+    copper/120
+    lead/100
+  ]
+}
