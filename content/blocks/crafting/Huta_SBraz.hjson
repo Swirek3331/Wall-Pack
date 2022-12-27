@@ -1,4 +1,4 @@
-type: GenericSmelter
+type: GenericCrafter
 name: Huta super brązu 
 description: Wytapia zuper brąz z połączenia brązu ołowianego i tytanowego.
 health: 600
@@ -34,3 +34,15 @@ research: {
 ambientSound: drill
 ambientSoundVolume: 2
 outputItem: SBraz/5
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawFlame
+      //Robi to ten łogień nad blokiem
+    }
+  ]
+}

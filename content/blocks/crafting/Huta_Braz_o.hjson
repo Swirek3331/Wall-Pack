@@ -1,4 +1,4 @@
-type: GenericSmelter
+type: GenericCrafter
 name: Huta brązu ołowianego
 description: Wytapia brąz ołowiany z miedzi i ołowiu.
 health: 589
@@ -32,3 +32,15 @@ research: {
 ambientSound: drill
 ambientSoundVolume: 2
 outputItem: Braz_o/3
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawFlame
+      //Robi to ten łogień nad blokiem
+    }
+  ]
+}

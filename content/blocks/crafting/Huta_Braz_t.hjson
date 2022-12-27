@@ -1,4 +1,4 @@
-type: GenericSmelter
+type: GenericCrafter
 name: Huta brązu tytanowego
 description: Wytapia brąz tytanowy z miezi i ołowiu.
 health: 589
@@ -34,3 +34,15 @@ research: {
 ambientSound: drill
 ambientSoundVolume: 2
 outputItem: Braz_t/3
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawFlame
+      //Robi to ten łogień nad blokiem
+    }
+  ]
+}

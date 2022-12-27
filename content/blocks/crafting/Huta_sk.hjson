@@ -1,4 +1,4 @@
-type: GenericSmelter
+type: GenericCrafter
 name: Huta super kryształu
 description: Wytapia z dużych ilości kryształu i tytanu  sztabki super kryształu.
 health: 900
@@ -38,3 +38,15 @@ research: {
 ambientSound: steam
 ambientSoundVolume: 3
 outputItem: Super_k/1
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawFlame
+      //Robi to ten łogień nad blokiem
+    }
+  ]
+}
