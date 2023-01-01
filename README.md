@@ -5,7 +5,7 @@ Since the Erekir it used to be forgoten and not working.
 Somewhere in [ZPGM Clan](https://discord.gg/E3T9JxDuTP) mindustry section.
 
 I "archivied" this here.
-**Stalker created this**
-I uploaded this here and aded translations.
+**Stalker created this**.
+I uploaded this here and aded translations, force it to work.
 
 Repository owner can be always changed.
